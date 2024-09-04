@@ -1,0 +1,158 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+}
+
+.nav-links {
+    list-style: none; 
+    display: flex; 
+    gap: 15px;     
+    padding: 10px 15px;     
+    border-radius: 8px; 
+    background-color: #fff; 
+}
+
+.nav-links li a {
+    font-size: 16px;
+    color: #333;
+    text-decoration: none; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+}
+
+
+.nav-links li a:hover {
+    background-color: #e0e0e0; 
+}
+
+img{
+    height: 50px; 
+    padding: 10px 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    font-size: 16px;
+    color: #333;
+}
+
+.search-cart {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.search-cart input[type="text"] {
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    flex: 1; 
+}
+
+.search-cart .search-button {
+    padding: 10px 15px; 
+    background-color: blue; 
+    border: none;
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+
+.search-cart .cart {
+    display: flex; 
+    align-items: center; 
+    text-decoration: none;
+    padding: 10px; 
+    background-color: #f8f9fa; 
+    border-radius: 4px; 
+    color: #333; 
+}
+
+.search-cart .cart i {
+    margin-right: 5px;
+}
+
+.search-cart .cart:hover {
+    background-color: #e2e6ea; 
+}
+
+
+
+.hero {
+    background: url('1.jpg') no-repeat center center/cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #ff3f6c;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+/* Product Categories */
+.categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.category {
+    text-align: center;
+}
+
+.category img {
+    width: 300px; 
+    height: 300px; 
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.category h3 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.category img:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
